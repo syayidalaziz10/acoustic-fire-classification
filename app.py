@@ -19,8 +19,8 @@ def main():
     )
     st.image("assets/banner.png")
 
-    st.header("Home Page")
-    st.write("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
+    st.header("Selamat Datang 👋")
+    st.write("Dataset yang digunakan pada projek ini adalah record data hasil uji coba pemadaman api menggunakan alat pemadam berbasis gelombang suara. Proses pengujian ini terdapat beberapa parameter yang digunakan pada alat tersebut sehingga parameter ini mempengaruhi hasil akhir yang diujikan yaitu api akan padam atau tidak. Tujuan dari projek ini adalah untuk melakukan klasifikasi berdasarkan dataset yang digunakan menggunakan salah satu algoritma yaitu Artificial Neural Network (ANN).")
 
     if st.button("Mulai Prediksi 👉"):
         switch_page('prediction')

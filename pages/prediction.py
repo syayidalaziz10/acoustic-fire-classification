@@ -88,7 +88,7 @@ def main():
 
     st.image("assets/banner.png")
 
-    st.header("Home Page")
+    st.header("Prediksi Sekarang")
     st.write("Masukkan beberapa parameter yang digunakan untuk alat pemadam kebakaran berbasis gelombang suara")
 
     col1, col2 = st.columns(2)
